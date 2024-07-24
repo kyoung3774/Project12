@@ -21,15 +21,22 @@ public class Ex02 {
 		Member m = list.get(0);
 
 		System.out.println(list);
+		System.out.println();
+		
 		System.out.println(m);
+		System.out.println();
+		
 		System.out.println(list.get(0));
+		System.out.println();
 		
 		list.remove(0);
 		System.out.println("전체 회원 수: " + list.size());
+		System.out.println();
 		
 		// 리스트 출력하기
 		System.out.println(list);
 		System.out.println();
+		
 		// for문 전체 회원 정보 출력
 		for(int i = 0; i < list.size();i++) {
 			Member member = list.get(i);
@@ -50,9 +57,9 @@ class Member {
 		this.memberName = memberName;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Member [memberId=" + memberId + ", memberName=" + memberName + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Member [memberId=" + memberId + ", memberName=" + memberName + "]";
+	}
 
 }

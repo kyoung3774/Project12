@@ -16,10 +16,14 @@ public class Ex01 {
 		System.out.println(list.get(1));
 		System.out.println(list.get(2));
 //		System.out.println(list.get(3));
-		
+		System.out.println()
+		;
 		System.out.println("리스트 전체 요소: " + list);
+		System.out.println();
+		
 		list.remove(2);
 		System.out.println("리스트 요소 삭제 후: " + list);
+		System.out.println();
 		
 		int size = list.size();
 		System.out.println("리스트 크기: " + size);
