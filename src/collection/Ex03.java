@@ -14,7 +14,7 @@ public class Ex03 {
 		hashSet.add("또치");
 		hashSet.add("도우너");
 		hashSet.add("도우너"); // 중복된 값 추가 불가
-		System.out.println("set 목록:" + hashSet + " 크기:" + hashSet.size());
+		System.out.println("set 목록:" + hashSet + " set 크기:" + hashSet.size());
 		System.out.println();
 
 		hashSet.remove("도우너"); // 순서가 없는 set은 인덱스 대신 remove 사용
